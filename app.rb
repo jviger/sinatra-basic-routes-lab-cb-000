@@ -13,7 +13,8 @@ class App < Sinatra::Base
     "Started my server using Shotgun!"
   end
   
-  get '/favorite-song do
+  get '/favorite-song' do
     "Started my server using Shotgun!"
   end
+  
 end
