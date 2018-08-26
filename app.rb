@@ -6,15 +6,15 @@ class App < Sinatra::Base
   end
   
    get '/name' do
-    "Started my server using Shotgun!"
+    "My name is __"
   end
   
   get '/hometown' do
-    "Started my server using Shotgun!"
+    "My hometown is __"
   end
   
   get '/favorite-song' do
-    "Started my server using Shotgun!"
+    "My favorite song is __"
   end
   
 end
